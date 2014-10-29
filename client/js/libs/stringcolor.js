@@ -81,7 +81,7 @@ function string_to_color(str) {
 	);
 }
 
-var cache = {};
+var cache = {"Pangea": "008bd0", "PangeaBot": "008bd0"};
 function stringcolor(str) {
 	return cache[str] = cache[str] || string_to_color(str);
 }
